@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/jake-unchained/react-native/MyApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
+            "map": [
+                {
+                    "source": "/home/jake-unchained/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/e70f9c7fc7603c637768824392ca21d3/res/values-v13/values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}

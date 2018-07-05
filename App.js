@@ -1,7 +1,8 @@
  import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import FetchLocation from './components/FetchLocation'
+import FetchLocation from './components/FetchLocation';
+import UsersMap from './components/UsersMap';
 
 export default class App extends React.Component {
 
@@ -13,8 +14,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <FetchLocation onGetLocation={this.getUserLocationHandler} />
+        <UsersMap/>
       </View>
+      // <FetchLocation onGetLocation={this.getUserLocationHandler} />
     );
   }
 }
